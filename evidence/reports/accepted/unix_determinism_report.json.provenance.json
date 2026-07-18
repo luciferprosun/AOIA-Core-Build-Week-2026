@@ -1,0 +1,12 @@
+{
+  "authority_for_aioa": false,
+  "classification": "ACCEPTED_COMMITTED_BUILD_WEEK_TEXT_EVIDENCE",
+  "copied_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+  "human_review_required": true,
+  "original_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+  "redaction_status": "NOT_REQUIRED_NO_REDACTION",
+  "source_branch": "feature/m2-b0-provider-critic-inert-core",
+  "source_path": "data/unix_full_validation_freeze_1a/determinism_report.json",
+  "source_repository": "https://github.com/luciferprosun/AOIA-Core",
+  "source_sha": "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+}

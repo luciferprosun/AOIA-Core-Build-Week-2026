@@ -1,0 +1,12 @@
+{
+  "authority_for_aioa": false,
+  "classification": "ACCEPTED_COMMITTED_BUILD_WEEK_TEXT_EVIDENCE",
+  "copied_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+  "human_review_required": true,
+  "original_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+  "redaction_status": "NOT_REQUIRED_NO_REDACTION",
+  "source_branch": "feature/m2-b0-provider-critic-inert-core",
+  "source_path": "data/unix_full_validation_freeze_1a/capability_boundary_report.json",
+  "source_repository": "https://github.com/luciferprosun/AOIA-Core",
+  "source_sha": "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+}

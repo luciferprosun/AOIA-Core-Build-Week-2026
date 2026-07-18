@@ -1,0 +1,20 @@
+{
+  "author_timestamp": "2026-07-07T06:43:12+02:00",
+  "branch_reachability": true,
+  "committer_timestamp": "2026-07-07T06:43:12+02:00",
+  "full_sha": "4c72724d94c71a9933f70839e07c0bcbe0e0606d",
+  "github_url": "https://github.com/luciferprosun/AOIA-Core/commit/4c72724d94c71a9933f70839e07c0bcbe0e0606d",
+  "human_review_required": true,
+  "parent_sha": "bd4e4041841df862e3f29e80ea69be62fcd542b5",
+  "parent_shas": [
+    "bd4e4041841df862e3f29e80ea69be62fcd542b5"
+  ],
+  "schema_version": "aoia-build-week-baseline-1a",
+  "selection_rule": "reachable commit with maximum committer timestamp strictly before window_start_utc",
+  "source_branch": "feature/m2-b0-provider-critic-inert-core",
+  "source_github": "https://github.com/luciferprosun/AOIA-Core",
+  "source_repository": "/home/l/AOIA_PRODUCTION/repos/AOIA-Core",
+  "subject": "feat(memory): add inert runtime schemas",
+  "window_end_utc": "2026-07-22T00:00:00Z",
+  "window_start_utc": "2026-07-13T16:00:00Z"
+}

@@ -1,0 +1,1424 @@
+{
+  "authority_for_aioa": false,
+  "control_artifact_policy": "This manifest excludes itself and evidence/hashes/SHA256SUMS from records to avoid recursive hash dependencies; SHA256SUMS covers this manifest.",
+  "date_range": {
+    "end_date_europe_berlin": "2026-07-18",
+    "start": "2026-07-13T00:00:00+02:00"
+  },
+  "generated_date": "2026-07-18",
+  "human_review_required": true,
+  "record_count": 107,
+  "record_counts": {
+    "COPIED": 62,
+    "GENERATED": 12,
+    "SKIPPED": 33
+  },
+  "record_sort": "destination_path ascending; skipped records last by source_path",
+  "records": [
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "evidence/git/COMMITS_SINCE_2026-07-13.md",
+      "destination_sha256": "8ce4425f23f7ea31cf985e10a1dfcd2dd6f09944f1894ab998efd438ec8d0144",
+      "notes": "Deterministic git-timeline; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:git-timeline",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
+        "47fcf394f9ece47988999949df8dbf606b442258",
+        "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "867c95d59594e2bad8a7a9d45ba135bb21195be4"
+      ],
+      "work_date": "2026-07-18"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-14/unix_retrieval_adapter_1a/index/index_manifest.json",
+      "destination_sha256": "93fadf57293802920177471b5916d8cc21e87576e3a0454674bd908d85ec4b08",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_retrieval_adapter_1a/index/index_manifest.json",
+      "source_sha256": "93fadf57293802920177471b5916d8cc21e87576e3a0454674bd908d85ec4b08",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-14"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/b7a3a148/architect_handoff_manifest_1a.json",
+      "destination_sha256": "a2ec19b372f45658b69af58b7d8f6b65d376144fec00a82385e1cfb58ac9ef1b",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "a2ec19b372f45658b69af58b7d8f6b65d376144fec00a82385e1cfb58ac9ef1b",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/b7a3a148/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "d7112af6dd682ca66f7ed03d901d065b2d327c3bc693d2041027e6cc42153000",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "d7112af6dd682ca66f7ed03d901d065b2d327c3bc693d2041027e6cc42153000",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_corpus_ingestion_1b/approved_source_inventory.json",
+      "destination_sha256": "41b08f373d646b4bcccb5bcf660827c4bb4c20e8d24fb0688df73f708fc5b224",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/approved_source_inventory.json",
+      "source_sha256": "41b08f373d646b4bcccb5bcf660827c4bb4c20e8d24fb0688df73f708fc5b224",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_corpus_ingestion_1b/ingestion_state.json",
+      "destination_sha256": "30359fe6d6af7e99fc08fb836824f61a7019001eb41819074342509dfa7f816a",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/ingestion_state.json",
+      "source_sha256": "30359fe6d6af7e99fc08fb836824f61a7019001eb41819074342509dfa7f816a",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_corpus_ingestion_1b/intake/corpus_manifest.json",
+      "destination_sha256": "12dac977e0e4fc540cb2b21133a20782d5a6f772ceabf7c160e014df93f7ed49",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/corpus_manifest.json",
+      "source_sha256": "12dac977e0e4fc540cb2b21133a20782d5a6f772ceabf7c160e014df93f7ed49",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_corpus_ingestion_1b/materialization_plan.json",
+      "destination_sha256": "150de94a1c5e94b417d8d9aa1d6a00d9126ab618024c364ddcb6aadac8e96fbb",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/materialization_plan.json",
+      "source_sha256": "150de94a1c5e94b417d8d9aa1d6a00d9126ab618024c364ddcb6aadac8e96fbb",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_corpus_ingestion_1b/source_inventory.json",
+      "destination_sha256": "16804da968658b8abf7f96cda153038d0bb743f2a6763b4f7e2b7c3494c7a370",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/source_inventory.json",
+      "source_sha256": "16804da968658b8abf7f96cda153038d0bb743f2a6763b4f7e2b7c3494c7a370",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a/component_hashes.json",
+      "destination_sha256": "11a9ea8cefc54d10d97d2b5786e0908b29298b93740e3639b214f5e94ff2a8ad",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/component_hashes.json",
+      "source_sha256": "11a9ea8cefc54d10d97d2b5786e0908b29298b93740e3639b214f5e94ff2a8ad",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "71393cc56971af922010b430b4cffbd15c41c8713a89edd747e5046f0076a9b7",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/freeze_manifest.json",
+      "source_sha256": "71393cc56971af922010b430b4cffbd15c41c8713a89edd747e5046f0076a9b7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/bundle_manifest.json",
+      "destination_sha256": "5c9493e3b3a86e4959d0277619cda00956e822b10bf24487acf0e0a3e9a5f94a",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/bundle_manifest.json",
+      "source_sha256": "5c9493e3b3a86e4959d0277619cda00956e822b10bf24487acf0e0a3e9a5f94a",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/visible_demo_manifest.json",
+      "destination_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/visible_demo_manifest.json",
+      "source_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a/worktree_snapshot.json",
+      "destination_sha256": "777f0b822a6fa530da5dd58ed6b1c765d41faf8401a4124efc2e51bdb75621f7",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/worktree_snapshot.json",
+      "source_sha256": "777f0b822a6fa530da5dd58ed6b1c765d41faf8401a4124efc2e51bdb75621f7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a_r1/component_hashes.json",
+      "destination_sha256": "4fc99e813255c46d989853a3093f35164da991f47554674ebea5d51b793bfcc7",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/component_hashes.json",
+      "source_sha256": "4fc99e813255c46d989853a3093f35164da991f47554674ebea5d51b793bfcc7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a_r1/freeze_manifest.json",
+      "destination_sha256": "4b6bb4a32a45600a05a7cfd4d8878906d5f8ad80da3a40bb2909ef1adc49b260",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/freeze_manifest.json",
+      "source_sha256": "4b6bb4a32a45600a05a7cfd4d8878906d5f8ad80da3a40bb2909ef1adc49b260",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/bundle_manifest.json",
+      "destination_sha256": "dcc99ff6989a4853735586f374fa2ad0e6c58693c51bde59d141bd51332f6bc9",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/bundle_manifest.json",
+      "source_sha256": "dcc99ff6989a4853735586f374fa2ad0e6c58693c51bde59d141bd51332f6bc9",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/visible_demo_manifest.json",
+      "destination_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/visible_demo_manifest.json",
+      "source_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_full_validation_freeze_1a_r1/worktree_snapshot.json",
+      "destination_sha256": "127b781886c1d1b286e46642ff970fccdfad221f6f12aec09772e6d35bd5335c",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/worktree_snapshot.json",
+      "source_sha256": "127b781886c1d1b286e46642ff970fccdfad221f6f12aec09772e6d35bd5335c",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_hat_routing_1a/routing_policy_manifest.json",
+      "destination_sha256": "8efae352fc6161f3800ed5b18c4d6cebf62f20bdc05dc11291b4cb850541e7a4",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_hat_routing_1a/routing_policy_manifest.json",
+      "source_sha256": "8efae352fc6161f3800ed5b18c4d6cebf62f20bdc05dc11291b4cb850541e7a4",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/unix_hat_routing_1a/unix_hat_descriptor.json",
+      "destination_sha256": "48d18774a3edf62709608c0b3353de85771195203ba0a8747fa7670ce89a7c05",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_hat_routing_1a/unix_hat_descriptor.json",
+      "source_sha256": "48d18774a3edf62709608c0b3353de85771195203ba0a8747fa7670ce89a7c05",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-15/visible_unix_prototype_1a/demo_manifest.json",
+      "destination_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/demo_manifest.json",
+      "source_sha256": "e3fc2d22057f9381fd789d7435316246a215678a4f05beb66441e9a104e5d4da",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-17/47fcf394/architect_handoff_manifest_1a.json",
+      "destination_sha256": "e836ef9dd7431330e94c31a4792c846ae150f993d666885210da379edcbb7ded",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@47fcf394f9ece47988999949df8dbf606b442258:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "e836ef9dd7431330e94c31a4792c846ae150f993d666885210da379edcbb7ded",
+      "supporting_commits": [
+        "47fcf394f9ece47988999949df8dbf606b442258"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-17/47fcf394/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "2d0b6c851a6251d7dc7498167fd0e0c035fc0b6e897cca9c52f791c3fa6bd336",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@47fcf394f9ece47988999949df8dbf606b442258:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "2d0b6c851a6251d7dc7498167fd0e0c035fc0b6e897cca9c52f791c3fa6bd336",
+      "supporting_commits": [
+        "47fcf394f9ece47988999949df8dbf606b442258"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-17/5b66890a/architect_handoff_manifest_1a.json",
+      "destination_sha256": "d083429da0248544e468588c7cf84ae8c3f0288451770e4db7468638d73bdc51",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@5b66890a5bed6976e7733a0f696f307a7436b678:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "d083429da0248544e468588c7cf84ae8c3f0288451770e4db7468638d73bdc51",
+      "supporting_commits": [
+        "5b66890a5bed6976e7733a0f696f307a7436b678"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-17/5b66890a/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "88fc9d78e472da75a54f6ddea3a986b70d2443e3321f53efed4d5d0b2933a488",
+      "notes": "Exact committed manifests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@5b66890a5bed6976e7733a0f696f307a7436b678:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "88fc9d78e472da75a54f6ddea3a986b70d2443e3321f53efed4d5d0b2933a488",
+      "supporting_commits": [
+        "5b66890a5bed6976e7733a0f696f307a7436b678"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-14/unix_retrieval_adapter_1a/benchmark.json",
+      "destination_sha256": "39b70f272564caf4e7ef2876a3e775e9a72f19d524f8288da0337eafe7c25974",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_retrieval_adapter_1a/benchmark.json",
+      "source_sha256": "39b70f272564caf4e7ef2876a3e775e9a72f19d524f8288da0337eafe7c25974",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-14"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-14/unix_retrieval_adapter_1a/query_validation.json",
+      "destination_sha256": "a65f3c75c2b1d978cdcd4406710fcfc72cb9b61a6853fa28ba47dda8135c6d1d",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_retrieval_adapter_1a/query_validation.json",
+      "source_sha256": "a65f3c75c2b1d978cdcd4406710fcfc72cb9b61a6853fa28ba47dda8135c6d1d",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-14"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_corpus_ingestion_1b/validation_report.json",
+      "destination_sha256": "f1f1f44ad20f163808149b547befd11ceb92f42528a9a08617538ea622a23ac3",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/validation_report.json",
+      "source_sha256": "f1f1f44ad20f163808149b547befd11ceb92f42528a9a08617538ea622a23ac3",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/adversarial_report.json",
+      "destination_sha256": "496fd503ed0655955fb06986ba1fbde930a5d18a6f639e1d7a786a5c32253609",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/adversarial_report.json",
+      "source_sha256": "496fd503ed0655955fb06986ba1fbde930a5d18a6f639e1d7a786a5c32253609",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/benchmark.json",
+      "destination_sha256": "e0e499c3919ce96f8bd0e78b4877b857baa2afd7f0667dbaa80fd56f09a50943",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/benchmark.json",
+      "source_sha256": "e0e499c3919ce96f8bd0e78b4877b857baa2afd7f0667dbaa80fd56f09a50943",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/capability_boundary_report.json",
+      "destination_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/capability_boundary_report.json",
+      "source_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/determinism_report.json",
+      "destination_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/determinism_report.json",
+      "source_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/limitations.json",
+      "destination_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/limitations.json",
+      "source_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/reproducibility_commands.txt",
+      "destination_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/reproducibility_commands.txt",
+      "source_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/architecture_summary.json",
+      "destination_sha256": "bec4fb453e055c779b6bddfaca30f3fdaee5da20a16cdf77de7e8b219e8f2e21",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/architecture_summary.json",
+      "source_sha256": "bec4fb453e055c779b6bddfaca30f3fdaee5da20a16cdf77de7e8b219e8f2e21",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/authority_boundary.json",
+      "destination_sha256": "590e8a60d60e4d158f0168bc189ec4fe58ed68f626e8cd8815b765115f233ecf",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/authority_boundary.json",
+      "source_sha256": "590e8a60d60e4d158f0168bc189ec4fe58ed68f626e8cd8815b765115f233ecf",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/benchmark_summary.json",
+      "destination_sha256": "2e243410234845d6237d8a0745cbd96f63699cb27a117f23226137eb2bbda246",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/benchmark_summary.json",
+      "source_sha256": "2e243410234845d6237d8a0745cbd96f63699cb27a117f23226137eb2bbda246",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/limitations.json",
+      "destination_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/limitations.json",
+      "source_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/reproduction.txt",
+      "destination_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/reproduction.txt",
+      "source_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/sponsor_demo_checklist.json",
+      "destination_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/sponsor_demo_checklist.json",
+      "source_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo/visible_demo_verification.json",
+      "destination_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/visible_demo_verification.json",
+      "source_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/sponsor_demo_checklist.json",
+      "destination_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo_checklist.json",
+      "source_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/validation_summary.json",
+      "destination_sha256": "5d6c22485b7c6a245b60e658c19c59765d163d58f97e7d97946a5e590d57c5e4",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/validation_summary.json",
+      "source_sha256": "5d6c22485b7c6a245b60e658c19c59765d163d58f97e7d97946a5e590d57c5e4",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a/verification.json",
+      "destination_sha256": "8b0ab6bd78efaee9c67fe12cd80040ad30c362b715f8c524b67e5b5509227866",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/verification.json",
+      "source_sha256": "8b0ab6bd78efaee9c67fe12cd80040ad30c362b715f8c524b67e5b5509227866",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/adversarial_report.json",
+      "destination_sha256": "496fd503ed0655955fb06986ba1fbde930a5d18a6f639e1d7a786a5c32253609",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/adversarial_report.json",
+      "source_sha256": "496fd503ed0655955fb06986ba1fbde930a5d18a6f639e1d7a786a5c32253609",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/benchmark.json",
+      "destination_sha256": "e0e499c3919ce96f8bd0e78b4877b857baa2afd7f0667dbaa80fd56f09a50943",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/benchmark.json",
+      "source_sha256": "e0e499c3919ce96f8bd0e78b4877b857baa2afd7f0667dbaa80fd56f09a50943",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/capability_boundary_report.json",
+      "destination_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/capability_boundary_report.json",
+      "source_sha256": "4b6f18b354409ae90a1b2d2db49f3efd2c9a8fb2901beb6c229d4ac21c4ece1d",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/determinism_report.json",
+      "destination_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/determinism_report.json",
+      "source_sha256": "72eb8195c075920dd1bc39161aa5f2d6342c95460a963d6d01975cb1688be135",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/limitations.json",
+      "destination_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/limitations.json",
+      "source_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/reproducibility_commands.txt",
+      "destination_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/reproducibility_commands.txt",
+      "source_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/architecture_summary.json",
+      "destination_sha256": "bec4fb453e055c779b6bddfaca30f3fdaee5da20a16cdf77de7e8b219e8f2e21",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/architecture_summary.json",
+      "source_sha256": "bec4fb453e055c779b6bddfaca30f3fdaee5da20a16cdf77de7e8b219e8f2e21",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/authority_boundary.json",
+      "destination_sha256": "590e8a60d60e4d158f0168bc189ec4fe58ed68f626e8cd8815b765115f233ecf",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/authority_boundary.json",
+      "source_sha256": "590e8a60d60e4d158f0168bc189ec4fe58ed68f626e8cd8815b765115f233ecf",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/benchmark_summary.json",
+      "destination_sha256": "70d26aabf6c5fda6a62dc1b09abad13729250b545d46a7f52e7588a492840e7e",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/benchmark_summary.json",
+      "source_sha256": "70d26aabf6c5fda6a62dc1b09abad13729250b545d46a7f52e7588a492840e7e",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/limitations.json",
+      "destination_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/limitations.json",
+      "source_sha256": "358b1353db7b8a56fd1f8bb6c0a032d5855580869404aceb50244a4847a377be",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/reproduction.txt",
+      "destination_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/reproduction.txt",
+      "source_sha256": "43f68113602d18793593ac21e41eaac91c5df582a3676b9d6c79eeb7c0381e88",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/sponsor_demo_checklist.json",
+      "destination_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/sponsor_demo_checklist.json",
+      "source_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo/visible_demo_verification.json",
+      "destination_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/visible_demo_verification.json",
+      "source_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/sponsor_demo_checklist.json",
+      "destination_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo_checklist.json",
+      "source_sha256": "89cec6fcb38151014b8886cf9f477af8a3008cf89a5ca92b39a67ada462196f7",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/validation_summary.json",
+      "destination_sha256": "d794fd7b1dc2400898841c406c888d4ce5b42fba2e30d4dc4060e49611b4e485",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/validation_summary.json",
+      "source_sha256": "d794fd7b1dc2400898841c406c888d4ce5b42fba2e30d4dc4060e49611b4e485",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_full_validation_freeze_1a_r1/verification.json",
+      "destination_sha256": "cf6d1749db22fede11a54c3ef81f545875a1ae78203263afbb6fe5a60fa6e4ab",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/verification.json",
+      "source_sha256": "cf6d1749db22fede11a54c3ef81f545875a1ae78203263afbb6fe5a60fa6e4ab",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/unix_hat_routing_1a/actual_query_validation.json",
+      "destination_sha256": "8de7087d8cbdf31c13a20f43f79bdd12c1a00b41c88e0367de0fe94d9a3e2e65",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_hat_routing_1a/actual_query_validation.json",
+      "source_sha256": "8de7087d8cbdf31c13a20f43f79bdd12c1a00b41c88e0367de0fe94d9a3e2e65",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/tests/2026-07-15/visible_unix_prototype_1a/verification.json",
+      "destination_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "notes": "Exact committed tests evidence; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/verification.json",
+      "source_sha256": "0d3574210fa6e8504aa60ad876b38508af951515959c402f6eaca376763fef83",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "indexes/IMPLEMENTATION_TIMELINE.md",
+      "destination_sha256": "a6e07a40139337b086eca1b5b83c1a704b5b014e842dd89c2899ef76c9313af7",
+      "notes": "Deterministic implementation-timeline; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:implementation-timeline",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
+        "47fcf394f9ece47988999949df8dbf606b442258",
+        "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "867c95d59594e2bad8a7a9d45ba135bb21195be4"
+      ],
+      "work_date": "2026-07-18"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "indexes/REPORT_INDEX.md",
+      "destination_sha256": "f3194ca18cd0f4864f06287a4254cabd8205d479bf2b6f7e7c87769ffc6fb00e",
+      "notes": "Deterministic report-index; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:report-index",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
+        "47fcf394f9ece47988999949df8dbf606b442258",
+        "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "867c95d59594e2bad8a7a9d45ba135bb21195be4"
+      ],
+      "work_date": "2026-07-18"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-14/UNIX_RETRIEVAL_VALIDATION_1A.md",
+      "destination_sha256": "882cab205e28433b70b514287abb6897dc0284c68d039a732c2f3372fb50014b",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-14"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-15/ARCHITECT_HANDOFF_AND_PACKAGING_CHECKPOINT.md",
+      "destination_sha256": "7cb9ed3d79abb5942480d8a29ef35eb8dcb48bcc2df05dfa1f51fcb62469749b",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-15/DURABLE_AUDIT_LEDGER_1A.md",
+      "destination_sha256": "c5059cfc1658dc5deddda01451e8da9f8b39de0a494829e448934e231b5600b2",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-15/FULL_SUITE_VALIDATION_AND_FREEZE_1A.md",
+      "destination_sha256": "089e69cce97ebf6723e0e49535b132c98d4b531a49e7425134c8c5ef9eeca34d",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-15/UNIX_CORPUS_INGESTION_1B.md",
+      "destination_sha256": "73249879bbc23e1cf3f67cc84250eae4eed7edf6c63b6a3a3081da8c09e147dc",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-15/UNIX_HAT_ROUTING_AND_VISIBLE_PROTOTYPE_1A.md",
+      "destination_sha256": "de3fb655668dd65de8a8978c8df82ed5c3327c3a5b45e7063592cb40644699c0",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-17/GLOBAL_WRITE_KILL_SWITCH_1A.md",
+      "destination_sha256": "a5a5b758069d38f381383225dc3a1a7f5f15756365a3ed632044571b801e5016",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "5b66890a5bed6976e7733a0f696f307a7436b678"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-17/STATIC_CAPABILITY_BOUNDARY_ENFORCEMENT_1A.md",
+      "destination_sha256": "33e2390b85d0151126b73e4f0612e6dd9588f34f427175f84d9120ef40f085d9",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "47fcf394f9ece47988999949df8dbf606b442258"
+      ],
+      "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-18/BUILD_WEEK_REPORTING_REPOSITORY_INITIALIZATION_1A.md",
+      "destination_sha256": "0f82f3bcccf7b53d44f42f966e87f46687998480e4ad3e51ffd3c8451869be29",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "867c95d59594e2bad8a7a9d45ba135bb21195be4"
+      ],
+      "work_date": "2026-07-18"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/01ef819d99f267f4ab10dc895ae3e3d79d0f06da07fd0ee8333e338e7d0691e7.json",
+      "source_sha256": "517a710048f7e8aceb95775a5fa71eb76165bbd07b484b6856f6fad064abe908",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/0b1d122389c97a417a1e8f0b70b9530e43dfec5a939f3b69395b4b541a81f56c.json",
+      "source_sha256": "3b98d5e2c8661a4c275ffe01861ce4085ddefb50479b3f1026841fda2b4c22db",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/345eb96669b0db2c5e4ed78d0bcf7ca514fb2e2f231148c25bd82114801d531d.json",
+      "source_sha256": "15368d51e9a50a8517514dec6b642094be54e66f041294a2ff653c5ca7e26893",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/93dd379ced45a438882af5b30a5c935b79a02f23b5c144c47907e988ae9d2769.json",
+      "source_sha256": "4475068c367492f4f4eca17b86924c62641369ae8519bc43f3201fe58e0f5d6f",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/a95b23888489cea19acfc086084521f4912ae78527420c639e39054a69916e50.json",
+      "source_sha256": "37b2ad3769d943d5b42527d5f0bec57918593d9cfd5ebc3c1438b268bb7a9a20",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/aece08eb503a6a35fb1fa79af59289407a29784f963619010b4681ffcfaf0d90.json",
+      "source_sha256": "6fbe1b7102a07f506c4e5db1c9a6d7be72e34c3727f3f7b096d3fc72e5519dfc",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/af6e8de3dc3f5f53abf3be4ea2d1be262f0f559470ca41fc6fcba1fcc09f8ef5.json",
+      "source_sha256": "29276c1629bc41af68f80878378709c0bc1a11267d55f8d544af7f2ef3b3ef45",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/b9a5b9714c29a64191f6aa326daca8e2d44b013ae8b18d444ac62f0c9386e718.json",
+      "source_sha256": "2145bdafedfcac1b5e20f123d233446f8486cf28e1f4b7377088ca28403c8e9f",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/cb51dcd553a5e9e248cc1cddb567ec15255540a71c512d7dc1c26388680bd295.json",
+      "source_sha256": "a18d2e6dcd3b012538808b364fcbaef7cf13441483cd3e0331c7ef02c10d9d44",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/dfd915e902bb2dec906a97336f8f1c44d8c58162be1d0223bd110a93e6322358.json",
+      "source_sha256": "a87b5049f56b785b84025b90607aa1d573e64efd05e589d4fb4423535c88d58c",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/e363f94b74a04b6cf3a1559de06da8fa484a1e7333be578551bc7341bb59dde1.json",
+      "source_sha256": "22bf685fbf16ed6103f3194f258073d3eabcec054d3703ea122c56d39b2ba1e3",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/e3aa44370b8e3916cdb2ff1b4e2cd27fa74fd1286aa0af05098e73d2051f203c.json",
+      "source_sha256": "a0ff839a9ae672db1612ad97b9466ed7b859ab03e7231b3821990a33eb5e3e2d",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_NORMALIZED_CORPUS_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_corpus_ingestion_1b/intake/records/ffaab55790816e301f9fa1c96520fd0e7f90065bac7b4461493eedc58a1c1da6.json",
+      "source_sha256": "ea6961cb710c0d99a3886936096da09ab254e15c1106b87f6da332e48031a02e",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/demo.txt",
+      "source_sha256": "2ed893a5461210aad2deca7c6e522f8dab8110f529bf793bb943c4cf0ddc63de",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a/sponsor_demo/index.html",
+      "source_sha256": "6ef3434b4a7e645064180a38889a4a7efb997279ac79c1fdcff6ffe4e201e3fb",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/demo.txt",
+      "source_sha256": "2ed893a5461210aad2deca7c6e522f8dab8110f529bf793bb943c4cf0ddc63de",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_full_validation_freeze_1a_r1/sponsor_demo/index.html",
+      "source_sha256": "6ef3434b4a7e645064180a38889a4a7efb997279ac79c1fdcff6ffe4e201e3fb",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "LARGE_RETRIEVAL_INDEX_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_retrieval_adapter_1a/index/entries.jsonl",
+      "source_sha256": "69f8cdbadca5736fe1cadb10155d5bbd2ab46bf02fe9f9ee185dc503514d17e4",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "LARGE_RETRIEVAL_INDEX_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/unix_retrieval_adapter_1a/index/postings.json",
+      "source_sha256": "32aa8cd689ac311a402d5f7638fac1380b05c35fdf30e10eda8d19c7571ee100",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/demo.txt",
+      "source_sha256": "2ed893a5461210aad2deca7c6e522f8dab8110f529bf793bb943c4cf0ddc63de",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/index.html",
+      "source_sha256": "6ef3434b4a7e645064180a38889a4a7efb997279ac79c1fdcff6ffe4e201e3fb",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/execution_blocked.html",
+      "source_sha256": "e2440929e0fc475d4da675f8f254e73069329641a69113a75326d0d86df55206",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/no_route.html",
+      "source_sha256": "10b76c77fe431bd3009e389ebd20fe7030eb3d4767c57190f171d65b44bf200e",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/path_traversal.html",
+      "source_sha256": "6b8092013325efae25e7f3893cf08ada8e8d70d9f61d075849e288c419916aab",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/process_signals.html",
+      "source_sha256": "135c1b4a4c546098624f92503aa21407700fe7c4f859ff28a8ec507e8146b4a2",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/review_needed.html",
+      "source_sha256": "d5b588b9d63fb2af9d1345dbd4a178f2e51f0968368297af66a814a6f9f32986",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/queries/unix_file_permissions.html",
+      "source_sha256": "17e0e3a6dc4e7f3a6301448116ea9d408093f171db937d761be021302ba4fd84",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/execution_blocked.json",
+      "source_sha256": "eef8e0022e01ac2baf1a78e2a74920546c4c3d318ebf9f3c345285ef8b10720c",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/no_route.json",
+      "source_sha256": "33a26feba09dcaba6ee65a10ccfab02ad05c3b4f28a14ede71eb3a48ff96c49c",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/path_traversal.json",
+      "source_sha256": "4ff4cde0d74031e42ab21a0077b861aa55fde5ef08ef20de3c95102490324187",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/process_signals.json",
+      "source_sha256": "099ba1edcd2f7d1fd5b7e804c349bd30c30032e29731e9c69fac789b1f21b2f6",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/review_needed.json",
+      "source_sha256": "d9397ad3ed63935c0a2282fb639a6d04ca472d6f298cca5cb7946f45f97cbf76",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    },
+    {
+      "copy_status": "SKIPPED",
+      "destination_path": null,
+      "destination_sha256": null,
+      "notes": "Intentionally excluded; no destination file was created.",
+      "rename_reason": "RAW_OR_RENDERED_DEMO_PAYLOAD_EXCLUDED",
+      "source_path": "git:/home/l/AOIA_PRODUCTION/repos/AOIA-Core@b7a3a1481ce382e516ed0d39e5ac334f3240c727:data/visible_unix_prototype_1a/review_models/unix_file_permissions.json",
+      "source_sha256": "187a656b52396ef8f04d9230068bb5bc518e89954ced332871550dbd814c6681",
+      "supporting_commits": [
+        "b7a3a1481ce382e516ed0d39e5ac334f3240c727"
+      ],
+      "work_date": "2026-07-15"
+    }
+  ],
+  "schema_version": "aoia-build-week-report-import-manifest-1a",
+  "source_branch": "feature/m2-b0-provider-critic-inert-core",
+  "source_head": "5b66890a5bed6976e7733a0f696f307a7436b678",
+  "source_repository": "/home/l/AOIA_PRODUCTION/repos/AOIA-Core",
+  "target_repository": "/home/l/AOIA_PRODUCTION/submissions/AOIA-Core-Build-Week-2026"
+}

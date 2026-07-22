@@ -1,6 +1,6 @@
 # Verified implementation timeline
 
-Date range: 2026-07-13 through 2026-07-18, organized in Europe/Berlin time.
+Date range: 2026-07-13 through 2026-07-22, organized in Europe/Berlin time.
 
 ## 2026-07-13
 
@@ -58,10 +58,30 @@ Tested: deterministic commit collector, secret scan, repository verifier, checks
 
 Committed and pushed: root commit `867c95d5` on private `main` before this import.
 
-Documented: reporting-repository initialization is the latest chronological report in this initial batch.
+Documented: reporting-repository initialization completed the initial evidence batch.
 
-## Latest implemented production step
+## 2026-07-19 and 2026-07-20
 
-Global Write Kill-Switch 1A at committed and remotely verified AOIA-Core SHA `5b66890a5bed6976e7733a0f696f307a7436b678`.
+No branch-reachable production commit in the official ledger establishes a separately completed milestone on these dates.
 
-The AOIA-Core working tree contains pre-existing uncommitted changes. They are excluded from all implementation claims, reports, and copied evidence. Later desktop-demo, German Law, Web Engineering, and submission work remains planned or in progress unless separately committed and verified.
+## 2026-07-21
+
+Implemented/tested: workspace guard and controlled-write TOCTOU hardening at `ba9d00e4`; deterministic full-chain fail-closed integration coverage at `849b4e82`; and CI bytecode isolation at `fd548b10` followed by the final correction `708d7b65`.
+
+Test evidence: committed freezes record 3,309 passed plus four skipped after Step 16, then 3,325 passed plus four skipped after Step 17 and CI repair; all record zero failures and errors. GitHub Actions run 29860392624 passed the strict freeze inventory after the final CI repair.
+
+Documented: three normalized reports cover the security hardening, full-chain integration, and CI repair.
+
+## 2026-07-22
+
+Implemented/tested: the single-window AOIA operator cockpit at `7f61a3b1`, committed at 00:24:07 Europe/Berlin / 22:24:07 UTC on 2026-07-21, inside the official UTC window.
+
+Test evidence: committed freeze records 3,337 passed, four skipped, zero failures, and zero errors. GitHub Actions run 29873695196 passed for the exact commit.
+
+Documented: Single-Window AOIA Operator Cockpit 1A.
+
+## Latest in-window production step
+
+Single-Window AOIA Operator Cockpit 1A at committed and remotely verified AOIA-Core SHA `7f61a3b167a028d7e34b852cca4ade809ceec571`.
+
+All implementation claims in this repository refer to committed, branch-reachable source objects. Demo recording, German Law, Web Engineering, final submission materials, and final human review remain separate pending work.

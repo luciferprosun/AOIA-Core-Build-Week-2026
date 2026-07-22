@@ -2,15 +2,36 @@
   "authority_for_aioa": false,
   "control_artifact_policy": "This manifest excludes itself and evidence/hashes/SHA256SUMS from records to avoid recursive hash dependencies; SHA256SUMS covers this manifest.",
   "date_range": {
-    "end_date_europe_berlin": "2026-07-18",
+    "end_date_europe_berlin": "2026-07-22",
     "start": "2026-07-13T00:00:00+02:00"
   },
-  "generated_date": "2026-07-18",
+  "generated_date": "2026-07-22",
   "human_review_required": true,
-  "record_count": 107,
+  "incremental_sync": {
+    "copied_snapshot_count": 10,
+    "delta_commits": [
+      "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903",
+      "849b4e820ab9619d5417acd246b7d16d8e1b5890",
+      "fd548b10c348b7b097bcd602b14278662fb8325f",
+      "708d7b65a3e07e019c22702f44de03ab32d2cb92",
+      "7f61a3b167a028d7e34b852cca4ade809ceec571"
+    ],
+    "duplicate_policy": "Preserve the verified baseline; replace records only by exact destination path; never recopy the baseline batch.",
+    "frozen_at_europe_berlin": "2026-07-22T22:33:48+02:00",
+    "generated_report_count": 4,
+    "mode": "INCREMENTAL",
+    "previous_source_head": "5b66890a5bed6976e7733a0f696f307a7436b678",
+    "previous_target_head": "6e99c68df211496a8d499e5176d375abe639a317",
+    "source_head": "7f61a3b167a028d7e34b852cca4ade809ceec571",
+    "uncommitted_source_paths_excluded": [
+      "web/app.js",
+      "web/operator_config.js"
+    ]
+  },
+  "record_count": 121,
   "record_counts": {
-    "COPIED": 62,
-    "GENERATED": 12,
+    "COPIED": 72,
+    "GENERATED": 16,
     "SKIPPED": 33
   },
   "record_sort": "destination_path ascending; skipped records last by source_path",
@@ -18,7 +39,7 @@
     {
       "copy_status": "GENERATED",
       "destination_path": "evidence/git/COMMITS_SINCE_2026-07-13.md",
-      "destination_sha256": "8ce4425f23f7ea31cf985e10a1dfcd2dd6f09944f1894ab998efd438ec8d0144",
+      "destination_sha256": "c4777a2648b36c377a6b4db3e73cc1ab768bad535199b9077c4a19cafe9b33c9",
       "notes": "Deterministic git-timeline; authority_for_aioa=false; human review required.",
       "rename_reason": null,
       "source_path": "generated:git-timeline",
@@ -27,9 +48,14 @@
         "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
         "47fcf394f9ece47988999949df8dbf606b442258",
         "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903",
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890",
+        "fd548b10c348b7b097bcd602b14278662fb8325f",
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92",
+        "7f61a3b167a028d7e34b852cca4ade809ceec571",
         "867c95d59594e2bad8a7a9d45ba135bb21195be4"
       ],
-      "work_date": "2026-07-18"
+      "work_date": "2026-07-22"
     },
     {
       "copy_status": "COPIED",
@@ -355,6 +381,136 @@
         "5b66890a5bed6976e7733a0f696f307a7436b678"
       ],
       "work_date": "2026-07-17"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/708d7b65/architect_handoff_manifest_1a.json",
+      "destination_sha256": "4a2e2ff6c059218408c133feade2f466ef688e5156a1aee9e30779426cb31299",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@708d7b65a3e07e019c22702f44de03ab32d2cb92:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "4a2e2ff6c059218408c133feade2f466ef688e5156a1aee9e30779426cb31299",
+      "supporting_commits": [
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/708d7b65/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "1cf174b48cb1cfc3c40545f481e3d0836fc54cd25f60586d258c380f29b791ba",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@708d7b65a3e07e019c22702f44de03ab32d2cb92:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "1cf174b48cb1cfc3c40545f481e3d0836fc54cd25f60586d258c380f29b791ba",
+      "supporting_commits": [
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/849b4e82/architect_handoff_manifest_1a.json",
+      "destination_sha256": "31cd44ddc8e595be51492c70abdb76f97758ec6426e306724200c63cb61178cc",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@849b4e820ab9619d5417acd246b7d16d8e1b5890:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "31cd44ddc8e595be51492c70abdb76f97758ec6426e306724200c63cb61178cc",
+      "supporting_commits": [
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/849b4e82/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "75c7357c688bac9eee6273c50114c254e8c2eb399120c5abdfd2ff5ab146bbd0",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@849b4e820ab9619d5417acd246b7d16d8e1b5890:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "75c7357c688bac9eee6273c50114c254e8c2eb399120c5abdfd2ff5ab146bbd0",
+      "supporting_commits": [
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/ba9d00e4/architect_handoff_manifest_1a.json",
+      "destination_sha256": "163b13b40d3ae2af82fa804880784ee6b03f8eafe560eb69a3db9f124f79d2f3",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@ba9d00e41bfa3c871b37742ddb81f2fae8bbe903:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "163b13b40d3ae2af82fa804880784ee6b03f8eafe560eb69a3db9f124f79d2f3",
+      "supporting_commits": [
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/ba9d00e4/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "ec65495aa03c6de3c5e92f67385ba718a36550722ffcb2ee5dad409475eadd21",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@ba9d00e41bfa3c871b37742ddb81f2fae8bbe903:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "ec65495aa03c6de3c5e92f67385ba718a36550722ffcb2ee5dad409475eadd21",
+      "supporting_commits": [
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/fd548b10/architect_handoff_manifest_1a.json",
+      "destination_sha256": "7a627dd2d5bb51ce93b0d6de4f9ce4f37d2c8d5ce685d71182944f341038719d",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@fd548b10c348b7b097bcd602b14278662fb8325f:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "7a627dd2d5bb51ce93b0d6de4f9ce4f37d2c8d5ce685d71182944f341038719d",
+      "supporting_commits": [
+        "fd548b10c348b7b097bcd602b14278662fb8325f"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-21/fd548b10/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "6301f10e733a78501cbd60d03325088f4902e2673c8c6217a3fa30b0102c8a80",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@fd548b10c348b7b097bcd602b14278662fb8325f:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "6301f10e733a78501cbd60d03325088f4902e2673c8c6217a3fa30b0102c8a80",
+      "supporting_commits": [
+        "fd548b10c348b7b097bcd602b14278662fb8325f"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-22/7f61a3b1/architect_handoff_manifest_1a.json",
+      "destination_sha256": "58e6c217e7e951fbb500ab8c70d36e3cb68f7628d40491764cef6a64b7a8f271",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@7f61a3b167a028d7e34b852cca4ade809ceec571:data/architect_handoff_manifest_1a.json",
+      "source_sha256": "58e6c217e7e951fbb500ab8c70d36e3cb68f7628d40491764cef6a64b7a8f271",
+      "supporting_commits": [
+        "7f61a3b167a028d7e34b852cca4ade809ceec571"
+      ],
+      "work_date": "2026-07-22"
+    },
+    {
+      "copy_status": "COPIED",
+      "destination_path": "evidence/manifests/2026-07-22/7f61a3b1/final_repository_freeze_1a/freeze_manifest.json",
+      "destination_sha256": "bd5e3b672e7f00a6ae414f5faeb2a1896ef7e8d7298723dbf41a4379af1f96ad",
+      "notes": "Exact committed manifest evidence added incrementally; filename preserved; authority_for_aioa=false.",
+      "rename_reason": null,
+      "source_path": "git:https://github.com/luciferprosun/AOIA-Core@7f61a3b167a028d7e34b852cca4ade809ceec571:data/final_repository_freeze_1a/freeze_manifest.json",
+      "source_sha256": "bd5e3b672e7f00a6ae414f5faeb2a1896ef7e8d7298723dbf41a4379af1f96ad",
+      "supporting_commits": [
+        "7f61a3b167a028d7e34b852cca4ade809ceec571"
+      ],
+      "work_date": "2026-07-22"
     },
     {
       "copy_status": "COPIED",
@@ -840,7 +996,7 @@
     {
       "copy_status": "GENERATED",
       "destination_path": "indexes/IMPLEMENTATION_TIMELINE.md",
-      "destination_sha256": "a6e07a40139337b086eca1b5b83c1a704b5b014e842dd89c2899ef76c9313af7",
+      "destination_sha256": "2099539f10141cb4f78064c71d974cfb2660cd761987562c50da1e1b91b58310",
       "notes": "Deterministic implementation-timeline; authority_for_aioa=false; human review required.",
       "rename_reason": null,
       "source_path": "generated:implementation-timeline",
@@ -849,14 +1005,19 @@
         "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
         "47fcf394f9ece47988999949df8dbf606b442258",
         "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903",
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890",
+        "fd548b10c348b7b097bcd602b14278662fb8325f",
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92",
+        "7f61a3b167a028d7e34b852cca4ade809ceec571",
         "867c95d59594e2bad8a7a9d45ba135bb21195be4"
       ],
-      "work_date": "2026-07-18"
+      "work_date": "2026-07-22"
     },
     {
       "copy_status": "GENERATED",
       "destination_path": "indexes/REPORT_INDEX.md",
-      "destination_sha256": "f3194ca18cd0f4864f06287a4254cabd8205d479bf2b6f7e7c87769ffc6fb00e",
+      "destination_sha256": "8ff1e2b74682be82fca5b008b5dda4253c0ad0f4b0341ea64b0d8be5e3c01016",
       "notes": "Deterministic report-index; authority_for_aioa=false; human review required.",
       "rename_reason": null,
       "source_path": "generated:report-index",
@@ -865,9 +1026,14 @@
         "b7a3a1481ce382e516ed0d39e5ac334f3240c727",
         "47fcf394f9ece47988999949df8dbf606b442258",
         "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903",
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890",
+        "fd548b10c348b7b097bcd602b14278662fb8325f",
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92",
+        "7f61a3b167a028d7e34b852cca4ade809ceec571",
         "867c95d59594e2bad8a7a9d45ba135bb21195be4"
       ],
-      "work_date": "2026-07-18"
+      "work_date": "2026-07-22"
     },
     {
       "copy_status": "GENERATED",
@@ -985,6 +1151,59 @@
         "867c95d59594e2bad8a7a9d45ba135bb21195be4"
       ],
       "work_date": "2026-07-18"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-21/CI_BYTECODE_ISOLATION_REPAIR_1A.md",
+      "destination_sha256": "b719e36e098cae9e96bd800c1e631829074e9af7ddc066a040d4cab2ac60bbfc",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "fd548b10c348b7b097bcd602b14278662fb8325f",
+        "708d7b65a3e07e019c22702f44de03ab32d2cb92"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-21/FULL_CHAIN_FAIL_CLOSED_INTEGRATION_1A.md",
+      "destination_sha256": "b3ac77cc0592172e73f6586ffbe6ab84117b9fbe65210debe11755cb91060abc",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "849b4e820ab9619d5417acd246b7d16d8e1b5890"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-21/WORKSPACE_GUARD_TOCTOU_HARDENING_1A.md",
+      "destination_sha256": "05b6a45cd760ef53d2b373ed13b1418b337fa65bd8e46814f7428d1c475f7e2d",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "ba9d00e41bfa3c871b37742ddb81f2fae8bbe903"
+      ],
+      "work_date": "2026-07-21"
+    },
+    {
+      "copy_status": "GENERATED",
+      "destination_path": "reports/2026-07-22/SINGLE_WINDOW_OPERATOR_CONSOLE_1A.md",
+      "destination_sha256": "89229db7f51d1a22f4bd1e31aa2112f84c48e5eb03cabff58bfd5ecaa32dd993",
+      "notes": "Deterministic normalized-report; authority_for_aioa=false; human review required.",
+      "rename_reason": null,
+      "source_path": "generated:normalized-report",
+      "source_sha256": null,
+      "supporting_commits": [
+        "7f61a3b167a028d7e34b852cca4ade809ceec571"
+      ],
+      "work_date": "2026-07-22"
     },
     {
       "copy_status": "SKIPPED",
@@ -1418,7 +1637,7 @@
   ],
   "schema_version": "aoia-build-week-report-import-manifest-1a",
   "source_branch": "feature/m2-b0-provider-critic-inert-core",
-  "source_head": "5b66890a5bed6976e7733a0f696f307a7436b678",
+  "source_head": "7f61a3b167a028d7e34b852cca4ade809ceec571",
   "source_repository": "/home/l/AOIA_PRODUCTION/repos/AOIA-Core",
   "target_repository": "/home/l/AOIA_PRODUCTION/submissions/AOIA-Core-Build-Week-2026"
 }

@@ -46,7 +46,9 @@ REQUIRED = [
     "demo/VIDEO_SCRIPT_PLACEHOLDER.md", "app/README.md",
     "submission/PROJECT_DESCRIPTION_DRAFT.md", "submission/DEVPOST_CHECKLIST.md",
     "scripts/collect_build_week_commits.py", "scripts/verify_submission_repo.py",
-    "scripts/secret_scan.py",
+    "scripts/secret_scan.py", "scripts/sync_incremental_production_reports.py",
+    "roadmaps/14_DAY_ROADMAP.md", "roadmaps/60_DAY_ROADMAP.md",
+    "manifests/REPORT_IMPORT_MANIFEST.json",
 ]
 
 
@@ -181,6 +183,25 @@ def main() -> int:
         for item in errors:
             print(f"VERIFY FAIL: {item}")
         return 1
+
+    import_manifest = json.loads((root / "manifests/REPORT_IMPORT_MANIFEST.json").read_text(encoding="utf-8"))
+    incremental_sync = import_manifest.get("incremental_sync", {})
+    expected_sync = {
+        "mode": "INCREMENTAL",
+        "frozen_at_europe_berlin": "2026-07-22T22:33:48+02:00",
+        "previous_source_head": "5b66890a5bed6976e7733a0f696f307a7436b678",
+        "previous_target_head": "6e99c68df211496a8d499e5176d375abe639a317",
+        "source_head": "7f61a3b167a028d7e34b852cca4ade809ceec571",
+        "copied_snapshot_count": 10,
+        "generated_report_count": 4,
+    }
+    for key, expected in expected_sync.items():
+        if incremental_sync.get(key) != expected:
+            fail(errors, f"incremental sync metadata mismatch: {key}")
+    if import_manifest.get("source_head") != expected_sync["source_head"]:
+        fail(errors, "report import manifest source head mismatch")
+    if import_manifest.get("record_count") != len(import_manifest.get("records", [])):
+        fail(errors, "report import manifest record count mismatch")
 
     baseline = json.loads((root / "evidence/commits/baseline.json").read_text(encoding="utf-8"))
     ledger_json = [json.loads(line) for line in (root / "evidence/commits/commit_ledger.jsonl").read_text(encoding="utf-8").splitlines() if line]

@@ -171,6 +171,12 @@ def is_evidence_or_manifest(path: str) -> bool:
 
 def classify(paths: list[str], production: list[str], tests: list[str]) -> tuple[str, str, str]:
     path_set = set(paths)
+    if "runtime/safety/workspace_guard.py" in path_set:
+        return (
+            "BUILD_WEEK_SECURITY_HARDENING",
+            "Workspace guard and controlled-write TOCTOU hardening",
+            "Diff hardens workspace, parent, target, and temporary-file identity checks with adversarial regressions.",
+        )
     if any(path.endswith("runtime/safety/write_kill_switch.py") or path == "runtime/safety/write_kill_switch.py" for path in paths):
         return (
             "BUILD_WEEK_SECURITY_HARDENING",
@@ -189,6 +195,24 @@ def classify(paths: list[str], production: list[str], tests: list[str]) -> tuple
             "BUILD_WEEK_NEW_IMPLEMENTATION",
             "UNIX evidence ingestion, deterministic retrieval, inert Hat routing metadata, visible review prototype, audit/freeze and developer entrypoints",
             "Diff introduces substantial production modules, evidence artifacts, and matching tests; classification is based on paths and line changes, not the subject alone.",
+        )
+    if "tests/test_full_chain_fail_closed_integration_1a.py" in path_set:
+        return (
+            "BUILD_WEEK_VALIDATION_AND_TESTS",
+            "Full-chain fail-closed authority-boundary integration validation",
+            "Diff adds the deterministic provider-to-workspace adversarial integration suite and canonical evidence manifests.",
+        )
+    if ".github/workflows/ci.yml" in path_set and not production:
+        return (
+            "BUILD_WEEK_VALIDATION_AND_TESTS",
+            "CI Python-bytecode isolation and strict repository-freeze validation",
+            "Diff changes only CI validation configuration and canonical evidence manifests; runtime authority code is untouched.",
+        )
+    if any(path.startswith("web/") for path in paths):
+        return (
+            "BUILD_WEEK_DEMO",
+            "Single-window AOIA operator cockpit frontend",
+            "Diff replaces the served cockpit frontend and adds matching UI/endpoint-contract tests without changing runtime authority code.",
         )
     if tests and not production:
         return (
